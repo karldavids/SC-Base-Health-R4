@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<List xmlns="http://hl7.org/fhir">
+  <id value="List-example"/>
+  <meta>
+    <profile value="http://StructureDefinition.hl7fhir.cn/List"/>
+  </meta>
+  <status value="current"/><!-- 1..1 current | retired | entered-in-error -->
+  <mode value="working"/><!-- 1..1 working | snapshot | changes -->
+  <title value="集合"/><!-- 0..1 Descriptive name for the list -->
+</List>
