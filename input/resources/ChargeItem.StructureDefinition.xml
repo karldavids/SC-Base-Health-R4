@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="ChargeItem" />
-  <url value="http://fhir.scwjxx.cn/SiChuan/StructureDefinition/ChargeItem" />
+  <url value="http://fhir.scwjxx.cn/Sichuan/StructureDefinition/ChargeItem" />
   <name value="ChargeItem" />
   <title value="费用信息" />
   <status value="draft" />
