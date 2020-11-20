@@ -115,6 +115,14 @@
       <description value="根收到患者的挂号申请后，医院给出挂号情况的应答。"/>
     </resource>
 
+    <resource>
+      <reference>
+        <!-- 本地资源定义（medical-record-documentation） -->
+        <reference value="StructureDefinition/medical-record-documentation"/>
+      </reference>
+      <description value="引用第三方的病历文书，并且把病历文书作为附件形式上传。"/>
+    </resource>
+
 		
 
 		<!--<resource>
@@ -356,34 +364,6 @@
       <name value="上传完整病历消息定义MessageDefinition的示例。"/>
       <description value="演示如何定义和引用上传完整病历消息定义MessageDefinition的示例"/>
       <exampleCanonical value="http://hl7.org/fhir/StructureDefinition/MessageDefinition"/>
-    </resource>
-
-    <resource>
-      <reference>
-        <!-- Patient资源示例 -->
-        <reference value="Patient/Patient001-example"/>
-      </reference>
-      <name value="患者张三的示例"/>
-      <description value="演示如何定义和引用患者张三的示例"/>
-    </resource>
-
-    <resource>
-      <reference>
-        <!-- Practitioner资源示例 -->
-        <reference value="Practitioner/Practitioner001-example"/>
-      </reference>
-      <name value="医护人员李明明的示例"/>
-      <description value="演示如何定义和引用医护人员李明明的示例"/>
-    </resource>
-
-
-    <resource>
-      <reference>
-        <!-- Organization资源示例 -->
-        <reference value="Organization/Hospital001-example"/>
-      </reference>
-      <name value="医疗机构的示例"/>
-      <description value="演示如何定义和引用医疗机构的示例"/>
     </resource>
 
     <resource>
