@@ -2,7 +2,7 @@
 <Organization xmlns="http://hl7.org/fhir">
   <id value="Hospital001-example"/>
   <meta>
-    <profile value="http://StructureDefinition.hl7fhir.cn/Hospital"/>
+    <profile value="http://fhir.scwjxx.cn/Sichuan/StructureDefinition/Hospital"/>
   </meta>
   <!--0..1 医院编号-->
   <identifier>
@@ -18,7 +18,7 @@
   <type>
     <coding>
       <!--组织机构层级种类 CodeSystem地址-->
-      <system value="http://CodeSystem.hl7fhir.cn/hierarchy-kind"/>
+      <system value="http://fhir.scwjxx.cn/Sichuan/CodeSystem/hierarchy-kind"/>
       <!-- 0..1 组织机构层级种类代码-->
       <code value="A100"/>
       <!-- 0..1 组织机构层级种类 -->
@@ -29,7 +29,7 @@
   <type>
     <coding>
       <!--卫生机构(组织)类别 CodeSystem地址-->
-      <system value="http://CodeSystem.hl7fhir.cn/health-institution-category"/>
+      <system value="http://fhir.scwjxx.cn/Sichuan/CodeSystem/health-institution-category"/>
       <!-- 0..1 卫生机构(组织)类别代码-->
       <code value="2"/>
       <!-- 0..1 卫生机构(组织)类别 -->
@@ -40,7 +40,7 @@
   <type>
     <coding>
       <!--组织机构类型 CodeSystem地址-->
-      <system value="http://CodeSystem.hl7fhir.cn/Classification-for-organizations"/>
+      <system value="http://fhir.scwjxx.cn/Sichuan/CodeSystem/Classification-for-organizations"/>
       <!-- 0..1 组织机构类型代码-->
       <code value="5"/>
       <!-- 0..1 组织机构类型 -->
@@ -78,7 +78,7 @@
     <value value="http://www.cdzxy.com/"/>
   </telecom>
   <!--0..1 图片 -->
-  <extension url="http://StructureDefinition.hl7fhir.cn/organization-picture">
+  <extension url="http://fhir.scwjxx.cn/Sichuan/StructureDefinition/organization-picture">
     <!--0..1 logo图片 -->
     <extension url="logo">
       <ValueAttachment>
@@ -108,7 +108,7 @@
   </extension>
 
   <!--医院简介 -->
-  <extension url="http://StructureDefinition.hl7fhir.cn/BriefIntroduction">
+  <extension url="http://fhir.scwjxx.cn/Sichuan/StructureDefinition/BriefIntroduction">
     <!--医院简介 -->
     <valueString value="XXXXXXXX医院血液科针对【血小板减少】、【血小板增多】、【过敏性紫癜】、【贫血】等病提供专业治疗方案。"/>
   </extension>

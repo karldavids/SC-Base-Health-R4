@@ -11,7 +11,7 @@
 				<!--消息事件 1..1-->
 				<eventCoding>
 					<!-- 0..1 事件类型 CodeSystem url  -->
-					<system value="http://CodeSystem.hl7fhir.cn/activity-code"/>
+					<system value="http://fhir.scwjxx.cn/Sichuan/CodeSystem/activity-code"/>
 					<!-- 0..1 事件类型代码-->
 					<code value="C01004"/>
 					<!-- 0..1 事件类型名称 -->
@@ -44,7 +44,7 @@
 			<Task xmlns="http://hl7.org/fhir">
 				<id value="medicalrecordssubmitted-example"/>
 				<!-- 0..1 canonical(ActivityDefinition) 关联ActivityDefinition -->
-				<instantiatesCanonical value="http://ActivityDefinition.hl7fhir.cn/ad-medical-records-submitted"/>
+				<instantiatesCanonical value="http://fhir.scwjxx.cn/Sichuan/ActivityDefinition/ad-medical-records-submitted"/>
 					
 				<!-- 1..1 状态 draft | requested | received | accepted | + -->
 				<status value="requested"/>
@@ -54,7 +54,7 @@
 				<businessStatus>
 					<coding>
 						<!-- 0..1 事件类型 CodeSystem url  -->
-						<system value="http://CodeSystem.hl7fhir.cn/activity-code"/>
+						<system value="http://fhir.scwjxx.cn/Sichuan/CodeSystem/activity-code"/>
 						<!-- 0..1 事件类型代码-->
 						<code value="C01004"/>
 						<!-- 0..1 事件类型名称 -->
@@ -144,18 +144,18 @@
 				<id value="DocumentReference002-example"/>
 
 				<meta>
-					<profile value="http://StructureDefinition.hl7fhir.cn/medical-record-documentation"/>
+					<profile value="http://fhir.scwjxx.cn/Sichuan/StructureDefinition/medical-record-documentation"/>
 				</meta>
 				<!-- 0..1 病历文档标识符 -->
 				<masterIdentifier>
 					<!-- 0..1 病历文档标识符NamingSystem uri-->
-					<system value="http://NamingSystem.hl7fhir.cn/document-Identifier"/>
+					<system value="http://fhir.scwjxx.cn/Sichuan/NamingSystem/document-Identifier"/>
 					<!-- 0..1 病历文档标识符 -->
 					<value value="DocumentReference002-example"/>
 				</masterIdentifier>
 				<!-- 1..1 文档引用状态  current | superseded | entered-in-error -->
 				<status >
-					<extension url="http://StructureDefinition.hl7fhir.cn/resource-status">
+					<extension url="http://fhir.scwjxx.cn/Sichuan/StructureDefinition/resource-status">
 						<valueCoding>
 							<!-- 0..1 文档引用状态 CodeSystem url -->
 							<system value="http://hl7.org/fhir/document-reference-status"/>
@@ -170,7 +170,7 @@
 				<type>
 					<coding>
 						<!-- 文档类型CodeSystem  地址 -->
-						<system value="http://CodeSystem.hl7fhir.cn/document-type"/>
+						<system value="http://fhir.scwjxx.cn/Sichuan/CodeSystem/document-type"/>
 						<!-- 0..1 文档类型编码 -->
 						<code value="WS365-2011"/>
 						<!-- 0..1 文档类型名称 -->
@@ -181,7 +181,7 @@
 				<category>
 					<coding>
 						<!-- 文档类别CodeSystem  地址 -->
-						<system value="http://CodeSystem.hl7fhir.cn/document-category"/>
+						<system value="http://fhir.scwjxx.cn/Sichuan/CodeSystem/document-category"/>
 						<!-- 0..1 文档类别编码 -->
 						<code value="HSDC00.09"/>
 						<!-- 0..1 文档类别名称 -->
@@ -213,7 +213,7 @@
 				<securityLabel>
 					<coding>
 						<!-- 安全级别CodeSystem  地址 -->
-						<system value="http://CodeSystem.hl7fhir.cn/security-labels"/>
+						<system value="http://fhir.scwjxx.cn/Sichuan/CodeSystem/security-labels"/>
 						<!-- 0..1 安全级别编码 -->
 						<code value="N"/>
 						<!-- 0..1 安全级别名称 -->
@@ -250,18 +250,18 @@
 				<id value="DocumentReference003-example"/>
 
 				<meta>
-					<profile value="http://StructureDefinition.hl7fhir.cn/medical-record-documentation"/>
+					<profile value="http://fhir.scwjxx.cn/Sichuan/StructureDefinition/medical-record-documentation"/>
 				</meta>
 				<!-- 0..1 病历文档标识符 -->
 				<masterIdentifier>
 					<!-- 0..1 病历文档标识符NamingSystem uri-->
-					<system value="http://NamingSystem.hl7fhir.cn/document-Identifier"/>
+					<system value="http://fhir.scwjxx.cn/Sichuan/NamingSystem/document-Identifier"/>
 					<!-- 0..1 病历文档标识符 -->
 					<value value="DocumentReference003-example"/>
 				</masterIdentifier>
 				<!-- 1..1 文档引用状态  current | superseded | entered-in-error -->
 				<status >
-					<extension url="http://StructureDefinition.hl7fhir.cn/resource-status">
+					<extension url="http://fhir.scwjxx.cn/Sichuan/StructureDefinition/resource-status">
 						<valueCoding>
 							<!-- 0..1 文档引用状态 CodeSystem url -->
 							<system value="http://hl7.org/fhir/document-reference-status"/>
@@ -276,7 +276,7 @@
 				<type>
 					<coding>
 						<!-- 文档类型CodeSystem  地址 -->
-						<system value="http://CodeSystem.hl7fhir.cn/document-type"/>
+						<system value="http://fhir.scwjxx.cn/Sichuan/CodeSystem/document-type"/>
 						<!-- 0..1 文档类型编码 -->
 						<code value="WS365-2011"/>
 						<!-- 0..1 文档类型名称 -->
@@ -287,7 +287,7 @@
 				<category>
 					<coding>
 						<!-- 文档类别CodeSystem  地址 -->
-						<system value="http://CodeSystem.hl7fhir.cn/document-category"/>
+						<system value="http://fhir.scwjxx.cn/Sichuan/CodeSystem/document-category"/>
 						<!-- 0..1 文档类别编码 -->
 						<code value="HSDC00.11"/>
 						<!-- 0..1 文档类别名称 -->
@@ -319,7 +319,7 @@
 				<securityLabel>
 					<coding>
 						<!-- 安全级别CodeSystem  地址 -->
-						<system value="http://CodeSystem.hl7fhir.cn/security-labels"/>
+						<system value="http://fhir.scwjxx.cn/Sichuan/CodeSystem/security-labels"/>
 						<!-- 0..1 安全级别编码 -->
 						<code value="N"/>
 						<!-- 0..1 安全级别名称 -->
@@ -355,18 +355,18 @@
 				<id value="DocumentReference004-example"/>
 
 				<meta>
-					<profile value="http://StructureDefinition.hl7fhir.cn/medical-record-documentation"/>
+					<profile value="http://fhir.scwjxx.cn/Sichuan/StructureDefinition/medical-record-documentation"/>
 				</meta>
 				<!-- 0..1 病历文档标识符 -->
 				<masterIdentifier>
 					<!-- 0..1 病历文档标识符NamingSystem uri-->
-					<system value="http://NamingSystem.hl7fhir.cn/document-Identifier"/>
+					<system value="http://fhir.scwjxx.cn/Sichuan/NamingSystem/document-Identifier"/>
 					<!-- 0..1 病历文档标识符 -->
 					<value value="DocumentReference004-example"/>
 				</masterIdentifier>
 				<!-- 1..1 文档引用状态  current | superseded | entered-in-error -->
 				<status >
-					<extension url="http://StructureDefinition.hl7fhir.cn/resource-status">
+					<extension url="http://fhir.scwjxx.cn/Sichuan/StructureDefinition/resource-status">
 						<valueCoding>
 							<!-- 0..1 文档引用状态 CodeSystem url -->
 							<system value="http://hl7.org/fhir/document-reference-status"/>
@@ -381,7 +381,7 @@
 				<type>
 					<coding>
 						<!-- 文档类型CodeSystem  地址 -->
-						<system value="http://CodeSystem.hl7fhir.cn/document-type"/>
+						<system value="http://fhir.scwjxx.cn/Sichuan/CodeSystem/document-type"/>
 						<!-- 0..1 文档类型编码 -->
 						<code value="WS365-2011"/>
 						<!-- 0..1 文档类型名称 -->
@@ -392,7 +392,7 @@
 				<category>
 					<coding>
 						<!-- 文档类别CodeSystem  地址 -->
-						<system value="http://CodeSystem.hl7fhir.cn/document-category"/>
+						<system value="http://fhir.scwjxx.cn/Sichuan/CodeSystem/document-category"/>
 						<!-- 0..1 文档类别编码 -->
 						<code value="HSDC00.23"/>
 						<!-- 0..1 文档类别名称 -->
@@ -424,7 +424,7 @@
 				<securityLabel>
 					<coding>
 						<!-- 安全级别CodeSystem  地址 -->
-						<system value="http://CodeSystem.hl7fhir.cn/security-labels"/>
+						<system value="http://fhir.scwjxx.cn/Sichuan/CodeSystem/security-labels"/>
 						<!-- 0..1 安全级别编码 -->
 						<code value="N"/>
 						<!-- 0..1 安全级别名称 -->

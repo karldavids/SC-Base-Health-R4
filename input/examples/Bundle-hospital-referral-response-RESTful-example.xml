@@ -10,13 +10,13 @@
 				<!-- 0..1 住院转诊预约应答逻辑ID -->
 				<id value="HospitalReferralResponse-example"/>
 				<meta>
-					<profile value="http://StructureDefinition.hl7fhir.cn/hospital-referral-response"/>
+					<profile value="http://fhir.scwjxx.cn/Sichuan/StructureDefinition/hospital-referral-response"/>
 				</meta>
 
 				<!-- 0..* 同意转诊编号 -->
 				<identifier>
 					<!-- 0..1 同意转诊编号NamingSystem uri-->
-					<system value="http://NamingSystem.hl7fhir.cn/hospital-referral-response-identifier"/>
+					<system value="http://fhir.scwjxx.cn/Sichuan/NamingSystem/hospital-referral-response-identifier"/>
 					<!-- 0..1 同意转诊编号 -->
 					<value value="YBAU00003"/>
 				</identifier>
@@ -35,7 +35,7 @@
 				<participantType>
 					<coding>
 						<!-- 0..1 参与者角色 CodeSystem url  -->
-						<system value="http://CodeSystem.hl7fhir.cn/encounter-participant-type"/>
+						<system value="http://fhir.scwjxx.cn/Sichuan/CodeSystem/encounter-participant-type"/>
 						<!-- 0..1 参与者角色代码-->
 						<code value="01"/>
 						<!-- 0..1 参与者角色 -->
