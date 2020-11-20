@@ -562,6 +562,86 @@
 
 
 
+
+      <resource>
+      <reference>
+        <!-- Task资源示例 -->
+        <reference value="Task/SlotVisits-example"/>
+      </reference>
+      <name value="确定门诊时段示例"/>
+      <description value="演示如何定义和引用确定门诊时段的示例"/>
+      <exampleCanonical value="http://hl7.org/fhir/StructureDefinition/Task"/>
+    </resource>
+
+
+  <resource>
+      <reference>
+        <!-- Task资源示例 -->
+        <reference value="Task/ScheduleVisits-example"/>
+      </reference>
+      <name value="确定门诊班次的示例"/>
+      <description value="演示如何定义和引用确定门诊班次的示例"/>
+      <exampleCanonical value="http://hl7.org/fhir/StructureDefinition/Task"/>
+    </resource>
+
+
+  <resource>
+      <reference>
+        <!-- Schedulen资源示例 -->
+        <reference value="Schedule/ScheduleOfClinicVisits-example"/>
+      </reference>
+      <name value="门诊班次的示例"/>
+      <description value="演示如何定义和引用门诊班次的示例"/>
+      <exampleCanonical value="http://fhir.scwjxx.cn/Sichuan/StructureDefinition/outpatient-schedule"/>
+    </resource>
+
+
+  <resource>
+      <reference>
+        <!-- AppointmentResponse资源示例 -->
+        <reference value="AppointmentResponse/RegistratedResponse-example"/>
+      </reference>
+      <name value="挂号确认应答的示例"/>
+      <description value="演示如何定义和引用挂号确认应答的示例"/>
+      <exampleCanonical value="http://SichuanMedicalCommunity.FHIR.PRESS/StructureDefinition/hospital-referral-response"/>
+    </resource>
+
+
+  <resource>
+      <reference>
+        <!-- Slot资源示例 -->
+        <reference value="Slot/OutpatientSlot-example"/>
+      </reference>
+      <name value="门诊号源时段的示例"/>
+      <description value="演示如何定义和引用门诊号源时段的示例"/>
+      <exampleCanonical value="http://fhir.scwjxx.cn/Sichuan/StructureDefinition/outpatient-slot"/>
+    </resource>
+
+
+  <resource>
+      <reference>
+        <!-- Appointment资源示例 -->
+        <reference value="Appointment/OutpatientRegistrationSource-example"/>
+      </reference>
+      <name value="门诊号源的示例"/>
+      <description value="演示如何定义和引用门诊号源的示例"/>
+      <exampleCanonical value="http://fhir.scwjxx.cn/Sichuan/StructureDefinition/outpatient-registration-source"/>
+    </resource>
+
+
+  <resource>
+      <reference>
+        <!-- MessageDefinition资源示例 -->
+        <reference value="ChargeItem/ChargeItem-example"/>
+      </reference>
+      <name value="挂号费用信息的示例"/>
+      <description value="演示如何定义和引用挂号费用信息的示例"/>
+      <exampleCanonical value="http://fhir.scwjxx.cn/Sichuan/StructureDefinition/ChargeItem"/>
+    </resource>
+
+
+
+
     <resource>
       <reference>
         <!-- 参与者类型编码值域集 -->
