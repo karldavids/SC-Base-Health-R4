@@ -3,7 +3,7 @@
 	<!-- 0..1 挂号确认应答ID -->
 	<id value="RegistratedResponse-example"/>
 	<meta>
-		<profile value="http://SichuanMedicalCommunity.FHIR.PRESS/StructureDefinition/hospital-referral-response"/>
+		<profile value="http://fhir.scwjxx.cn/Sichuan/StructureDefinition/hospital-referral-response"/>
 	</meta>
 
 
