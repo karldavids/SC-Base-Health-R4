@@ -9,7 +9,7 @@
 	<!-- 此实施指南的版本。除非指定了 "propagate-version" 扩展元素，否则所有引用资源都将继承此版本号 -->
 	<version value="0.0.2"/>
 	<name value="SC Base Base IG"/>
-	<title value="四川省基层卫生实施指南"/>
+	<title value="四川省基层卫生实施指南 "/>
 	<status value="draft"/>
 	<experimental value="true"/>
 	<publisher value="HL7FHIR.CN" />
