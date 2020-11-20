@@ -603,7 +603,7 @@
       </reference>
       <name value="挂号确认应答的示例"/>
       <description value="演示如何定义和引用挂号确认应答的示例"/>
-      <exampleCanonical value="http://SichuanMedicalCommunity.FHIR.PRESS/StructureDefinition/hospital-referral-response"/>
+      <exampleCanonical value="http://fhir.scwjxx.cn/Sichuan/StructureDefinition/hospital-referral-response"/>
     </resource>
 
 
