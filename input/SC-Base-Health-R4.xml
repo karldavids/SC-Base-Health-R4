@@ -642,6 +642,128 @@
 
 
 
+<resource>
+      <reference>
+        <!-- Bundle资源示例 -->
+        <reference value="Bundle/appointment-register-example"/>
+      </reference>
+      <name value="患者预约挂号消息交换Bundle示例"/>
+      <description value="演示如何定义和引用患者预约挂号实际交互场景的数据交换Bundle示例"/>
+      <exampleCanonical value="http://hl7.org/fhir/StructureDefinition/Bundle"/>
+    </resource>
+
+
+    <resource>
+      <reference>
+        <!-- Bundle资源示例 -->
+        <reference value="Bundle/patient-outpatient-arrive-response-example"/>
+      </reference>
+      <name value="门诊患者到诊确认消息交换Bundle示例"/>
+      <description value="演示如何定义和引用门诊患者到诊确认实际交互场景的数据交换Bundle示例"/>
+      <exampleCanonical value="http://hl7.org/fhir/StructureDefinition/Bundle"/>
+    </resource>
+
+    <resource>
+      <reference>
+        <!-- Bundle资源示例 -->
+        <reference value="Bundle/registrated-response-example"/>
+      </reference>
+      <name value="挂号确认应答消息交换Bundle示例"/>
+      <description value="演示如何定义和引用挂号确认应答实际交互场景的数据交换Bundle示例"/>
+      <exampleCanonical value="http://hl7.org/fhir/StructureDefinition/Bundle"/>
+    </resource>
+
+    <resource>
+      <reference>
+        <!-- Bundle资源示例 -->
+        <reference value="Bundle/schedule-of-clinic-visits-example"/>
+      </reference>
+      <name value="确定门诊班次消息交换Bundle示例"/>
+      <description value="演示如何定义和引用确定门诊班次实际交互场景的数据交换Bundle示例"/>
+      <exampleCanonical value="http://hl7.org/fhir/StructureDefinition/Bundle"/>
+    </resource>
+
+    <resource>
+      <reference>
+        <!-- Bundle资源示例 -->
+        <reference value="Bundle/slot-of-clinic-visits-example"/>
+      </reference>
+      <name value="确定门诊时段消息交换Bundle示例"/>
+      <description value="演示如何定义和引用确定门诊时段实际交互场景的数据交换Bundle示例"/>
+      <exampleCanonical value="http://hl7.org/fhir/StructureDefinition/Bundle"/>
+    </resource>
+
+    <resource>
+      <reference>
+        <!-- Bundle资源示例 -->
+        <reference value="Bundle/source-of-outpatient-service-example"/>
+      </reference>
+      <name value="确定门诊号源消息交换Bundle示例"/>
+      <description value="演示如何定义和引用确定门诊号源实际交互场景的数据交换Bundle示例"/>
+      <exampleCanonical value="http://hl7.org/fhir/StructureDefinition/Bundle"/>
+    </resource>
+
+
+
+
+
+
+<resource>
+      <reference>
+        <!-- Bundle资源示例 -->
+        <reference value="Bundle/appointment-register-RESTful-example"/>
+      </reference>
+      <name value="患者预约挂号RESTful接口的Bundle示例"/>
+      <description value="演示如何定义和引用患者预约挂号实际交互场景的RESTful数据交换Bundle示例"/>
+      <exampleCanonical value="http://hl7.org/fhir/StructureDefinition/Bundle"/>
+    </resource>
+
+
+    <resource>
+      <reference>
+        <!-- Bundle资源示例 -->
+        <reference value="Bundle/patient-outpatient-arrive-response-RESTful-example"/>
+      </reference>
+      <name value="门诊患者到诊确认RESTful接口的Bundle示例"/>
+      <description value="演示如何定义和引用门诊患者到诊确认实际交互场景的RESTful数据交换Bundle示例"/>
+      <exampleCanonical value="http://hl7.org/fhir/StructureDefinition/Bundle"/>
+    </resource>
+
+    <resource>
+      <reference>
+        <!-- Bundle资源示例 -->
+        <reference value="Bundle/schedule-of-clinic-visits-RESTful-example"/>
+      </reference>
+      <name value="确定门诊班次RESTful接口的Bundle示例"/>
+      <description value="演示如何定义和引用确定门诊班次实际交互场景的RESTful数据交换Bundle示例"/>
+      <exampleCanonical value="http://hl7.org/fhir/StructureDefinition/Bundle"/>
+    </resource>
+
+    <resource>
+      <reference>
+        <!-- Bundle资源示例 -->
+        <reference value="Bundle/slot-of-clinic-visits-RESTful-example"/>
+      </reference>
+      <name value="确定门诊时段RESTful接口的Bundle示例"/>
+      <description value="演示如何定义和引用确定门诊时段实际交互场景的RESTful数据交换Bundle示例"/>
+      <exampleCanonical value="http://hl7.org/fhir/StructureDefinition/Bundle"/>
+    </resource>
+
+    <resource>
+      <reference>
+        <!-- Bundle资源示例 -->
+        <reference value="Bundle/source-of-outpatient-service-RESTful-example"/>
+      </reference>
+      <name value="确定门诊号源RESTful接口的Bundle示例"/>
+      <description value="演示如何定义和引用确定门诊号源实际交互场景的RESTful数据交换Bundle示例"/>
+      <exampleCanonical value="http://hl7.org/fhir/StructureDefinition/Bundle"/>
+    </resource>
+
+
+
+   
+
+
     <resource>
       <reference>
         <!-- 参与者类型编码值域集 -->
