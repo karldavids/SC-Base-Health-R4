@@ -416,7 +416,71 @@
       <exampleCanonical value="http://hl7.org/fhir/StructureDefinition/List"/>
     </resource>
 
-    
+
+
+    <resource>
+      <reference>
+        <!-- ActivityDefinition资源示例 -->
+        <reference value="ActivityDefinition/ad-appointment-register"/>
+      </reference>
+      <name value="患者预约挂号ActivityDefinition示例"/>
+      <description value="演示如何定义和引用患者预约挂号ActivityDefinition的简单示例"/>
+      <exampleCanonical value="http://hl7.org/fhir/StructureDefinition/ActivityDefinition"/>
+    </resource>
+
+    <resource>
+      <reference>
+        <!-- ActivityDefinition资源示例 -->
+        <reference value="ActivityDefinition/ad-patient-outpatient-arrive-response"/>
+      </reference>
+      <name value="门诊患者到诊应答ActivityDefinition示例"/>
+      <description value="演示如何定义和引用门诊患者到诊应答ActivityDefinition的简单示例"/>
+      <exampleCanonical value="http://hl7.org/fhir/StructureDefinition/ActivityDefinition"/>
+    </resource>
+
+
+    <resource>
+      <reference>
+        <!-- ActivityDefinition资源示例 -->
+        <reference value="ActivityDefinition/ad-registrated-response"/>
+      </reference>
+      <name value="挂号确认应答ActivityDefinition示例"/>
+      <description value="演示如何定义和引用挂号确认应答ActivityDefinition的简单示例"/>
+      <exampleCanonical value="http://hl7.org/fhir/StructureDefinition/ActivityDefinition"/>
+    </resource>
+
+
+    <resource>
+      <reference>
+        <!-- ActivityDefinition资源示例 -->
+        <reference value="ActivityDefinition/ad-schedule-of-clinic-visits"/>
+      </reference>
+      <name value="确定门诊班次ActivityDefinition示例"/>
+      <description value="演示如何定义和引用确定门诊班次ActivityDefinition的简单示例"/>
+      <exampleCanonical value="http://hl7.org/fhir/StructureDefinition/ActivityDefinition"/>
+    </resource>
+
+
+    <resource>
+      <reference>
+        <!-- ActivityDefinition资源示例 -->
+        <reference value="ActivityDefinition/ad-slot-of-clinic-visits"/>
+      </reference>
+      <name value="确定门诊时段ActivityDefinition示例"/>
+      <description value="演示如何定义和引用确定门诊时段ActivityDefinition的简单示例"/>
+      <exampleCanonical value="http://hl7.org/fhir/StructureDefinition/ActivityDefinition"/>
+    </resource>
+
+
+    <resource>
+      <reference>
+        <!-- ActivityDefinition资源示例 -->
+        <reference value="ActivityDefinition/ad-source-of-outpatient-service"/>
+      </reference>
+      <name value="确定门诊号源ActivityDefinition示例"/>
+      <description value="演示如何定义和引用确定门诊号源ActivityDefinition的简单示例"/>
+      <exampleCanonical value="http://hl7.org/fhir/StructureDefinition/ActivityDefinition"/>
+    </resource>
 
 
     <resource>
