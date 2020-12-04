@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ValueSet xmlns="http://hl7.org/fhir"> 
-	<id value="service-category-vs"/>
+	<id value="service-type-vs"/>
  <url value="http://fhir.scwjxx.cn/Sichuan/ValueSet/service-type-vs"/>
  <name value="service-type-vs"/><!-- ?? 0..1 Name for this value set (computer friendly) -->
  <title value="服务项目分类 "/><!-- 0..1 Name for this value set (human friendly) -->
