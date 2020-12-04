@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ValueSet xmlns="http://hl7.org/fhir"> 
-	<id value="service-type-vs"/>
+	<id value="service-category-vs"/>
  <url value="http://fhir.scwjxx.cn/Sichuan/ValueSet/service-type-vs"/>
  <name value="service-type-vs"/><!-- ?? 0..1 Name for this value set (computer friendly) -->
- <title value="服务项目分类"/><!-- 0..1 Name for this value set (human friendly) -->
+ <title value="服务项目分类 "/><!-- 0..1 Name for this value set (human friendly) -->
  <status value="draft"/><!-- 1..1 draft | active | retired | unknown -->
-<description value="描述预约的服务项目，可以是具体的医疗服务"/>
+  <description value="服务项目分类，包括  门诊预约挂号、检查预约、手术预约、转诊预约"/>
  <compose>  <!-- 0..1 Content logical definition of the value set (CLD) --> 
   <include>  <!-- 1..* Include one or more codes from a code system or other value set(s) -->
    <system value="http://fhir.scwjxx.cn/Sichuan/CodeSystem/service-type"/><!-- ?? 0..1 The system the codes come from --> 
