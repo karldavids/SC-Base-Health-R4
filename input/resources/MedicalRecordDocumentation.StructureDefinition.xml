@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="medical-record-documentation" />
-  <url value="http://fhir.scwjxx.cn/SiChuan/StructureDefinition/medical-record-documentation" />
+  <url value="http://fhir.scwjxx.cn/Sichuan/StructureDefinition/medical-record-documentation" />
   <name value="MedicalRecordDocumentation" />
   <title value="病历文档引用" />
   <status value="draft" />
@@ -58,7 +58,7 @@
       <short value="文档编号" />
       <type>
         <code value="Identifier" />
-        <profile value="http://fhir.scwjxx.cn/SiChuan/StructureDefinition/Identifier" />
+        <profile value="http://fhir.scwjxx.cn/Sichuan/StructureDefinition/Identifier" />
       </type>
     </element>
     <element id="DocumentReference.identifier">
@@ -67,7 +67,7 @@
       <definition value="描述本病历文档的其他业务标识符" />
       <type>
         <code value="Identifier" />
-        <profile value="http://fhir.scwjxx.cn/SiChuan/StructureDefinition/Identifier" />
+        <profile value="http://fhir.scwjxx.cn/Sichuan/StructureDefinition/Identifier" />
       </type>
     </element>
     <element id="DocumentReference.status">
@@ -93,7 +93,7 @@
       <max value="1" />
       <type>
         <code value="Extension" />
-        <profile value="http://fhir.scwjxx.cn/SiChuan/StructureDefinition/resource-status" />
+        <profile value="http://fhir.scwjxx.cn/Sichuan/StructureDefinition/resource-status" />
       </type>
       <binding>
         <strength value="required" />
@@ -124,7 +124,7 @@
       <max value="1" />
       <type>
         <code value="Extension" />
-        <profile value="http://fhir.scwjxx.cn/SiChuan/StructureDefinition/resource-status" />
+        <profile value="http://fhir.scwjxx.cn/Sichuan/StructureDefinition/resource-status" />
       </type>
       <binding>
         <strength value="required" />
@@ -137,7 +137,7 @@
       <definition value="描述病历文档在国家标准下的一个分类" />
       <type>
         <code value="CodeableConcept" />
-        <profile value="http://fhir.scwjxx.cn/SiChuan/StructureDefinition/CodeableConcept" />
+        <profile value="http://fhir.scwjxx.cn/Sichuan/StructureDefinition/CodeableConcept" />
       </type>
       <binding>
         <strength value="preferred" />
@@ -151,7 +151,7 @@
       <definition value="描述在文档分类下的确定文档类型。" />
       <type>
         <code value="CodeableConcept" />
-        <profile value="http://fhir.scwjxx.cn/SiChuan/StructureDefinition/CodeableConcept" />
+        <profile value="http://fhir.scwjxx.cn/Sichuan/StructureDefinition/CodeableConcept" />
       </type>
       <binding>
         <strength value="example" />
@@ -164,7 +164,7 @@
       <definition value="该文档描述的主体" />
       <type>
         <code value="Reference" />
-        <profile value="http://fhir.scwjxx.cn/SiChuan/StructureDefinition/Reference" />
+        <profile value="http://fhir.scwjxx.cn/Sichuan/StructureDefinition/Reference" />
       </type>
     </element>
     <element id="DocumentReference.date">
@@ -178,7 +178,7 @@
       <definition value="确定谁负责将信息添加到文档中。" />
       <type>
         <code value="Reference" />
-        <profile value="http://fhir.scwjxx.cn/SiChuan/StructureDefinition/Reference" />
+        <profile value="http://fhir.scwjxx.cn/Sichuan/StructureDefinition/Reference" />
       </type>
     </element>
     <element id="DocumentReference.authenticator">
@@ -187,7 +187,7 @@
       <definition value="哪个人或组织验证此文档的有效性。" />
       <type>
         <code value="Reference" />
-        <profile value="http://fhir.scwjxx.cn/SiChuan/StructureDefinition/Reference" />
+        <profile value="http://fhir.scwjxx.cn/Sichuan/StructureDefinition/Reference" />
       </type>
     </element>
     <element id="DocumentReference.custodian">
@@ -196,7 +196,7 @@
       <definition value="标识负责对文档进行持续维护和访问的组织或组。" />
       <type>
         <code value="Reference" />
-        <profile value="http://fhir.scwjxx.cn/SiChuan/StructureDefinition/Reference" />
+        <profile value="http://fhir.scwjxx.cn/Sichuan/StructureDefinition/Reference" />
       </type>
     </element>
     <element id="DocumentReference.relatesTo">
@@ -214,7 +214,7 @@
       <definition value="描述文档的安全级别" />
       <type>
         <code value="CodeableConcept" />
-        <profile value="http://fhir.scwjxx.cn/SiChuan/StructureDefinition/CodeableConcept" />
+        <profile value="http://fhir.scwjxx.cn/Sichuan/StructureDefinition/CodeableConcept" />
       </type>
       <binding>
         <strength value="extensible" />
@@ -227,7 +227,7 @@
       <short value="文档实体" />
       <type>
         <code value="Attachment" />
-        <profile value="http://fhir.scwjxx.cn/SiChuan/StructureDefinition/Attachment" />
+        <profile value="http://fhir.scwjxx.cn/Sichuan/StructureDefinition/Attachment" />
       </type>
     </element>
     <element id="DocumentReference.content.format">
@@ -235,7 +235,7 @@
       <max value="0" />
       <type>
         <code value="Coding" />
-        <profile value="http://fhir.scwjxx.cn/SiChuan/StructureDefinition/Coding" />
+        <profile value="http://fhir.scwjxx.cn/Sichuan/StructureDefinition/Coding" />
       </type>
     </element>
     <element id="DocumentReference.context">
@@ -249,7 +249,7 @@
       <definition value="描述文档内容所关联的临床遭遇或护理类型。" />
       <type>
         <code value="Reference" />
-        <profile value="http://fhir.scwjxx.cn/SiChuan/StructureDefinition/Reference" />
+        <profile value="http://fhir.scwjxx.cn/Sichuan/StructureDefinition/Reference" />
       </type>
     </element>
     <element id="DocumentReference.context.event">
@@ -258,7 +258,7 @@
       <definition value="已记录的主要临床行为" />
       <type>
         <code value="CodeableConcept" />
-        <profile value="http://fhir.scwjxx.cn/SiChuan/StructureDefinition/CodeableConcept" />
+        <profile value="http://fhir.scwjxx.cn/Sichuan/StructureDefinition/CodeableConcept" />
       </type>
     </element>
     <element id="DocumentReference.context.period">
@@ -267,7 +267,7 @@
       <definition value="文档所描述的服务被提供的时间段。" />
       <type>
         <code value="Period" />
-        <profile value="http://fhir.scwjxx.cn/SiChuan/StructureDefinition/Period" />
+        <profile value="http://fhir.scwjxx.cn/Sichuan/StructureDefinition/Period" />
       </type>
     </element>
     <element id="DocumentReference.context.facilityType">
@@ -276,7 +276,7 @@
       <definition value="这是代表发生临床遭遇，服务，交互作用或治疗的组织机构类型的代码。" />
       <type>
         <code value="CodeableConcept" />
-        <profile value="http://fhir.scwjxx.cn/SiChuan/StructureDefinition/CodeableConcept" />
+        <profile value="http://fhir.scwjxx.cn/Sichuan/StructureDefinition/CodeableConcept" />
       </type>
     </element>
     <element id="DocumentReference.context.practiceSetting">
@@ -285,7 +285,7 @@
       <definition value="此属性可以传达有关创建内容的实践环境的细节，通常反映出临床专业知识。&#xD;&#xA;该要素应基于专业实践课的粗略分类系统。建议将分类系统用于练习设置，例如LOINC中的“主题领域”所描述的系统。" />
       <type>
         <code value="CodeableConcept" />
-        <profile value="http://fhir.scwjxx.cn/SiChuan/StructureDefinition/CodeableConcept" />
+        <profile value="http://fhir.scwjxx.cn/Sichuan/StructureDefinition/CodeableConcept" />
       </type>
     </element>
     <element id="DocumentReference.context.sourcePatientInfo">
@@ -294,7 +294,7 @@
       <definition value="文档发布时所知道的患者信息。可能是特定版本的引用，也可能是包含的引用。" />
       <type>
         <code value="Reference" />
-        <profile value="http://fhir.scwjxx.cn/SiChuan/StructureDefinition/Reference" />
+        <profile value="http://fhir.scwjxx.cn/Sichuan/StructureDefinition/Reference" />
       </type>
     </element>
     <element id="DocumentReference.context.related">
@@ -303,7 +303,7 @@
       <definition value="与DocumentReference关联的相关标识符或资源。" />
       <type>
         <code value="Reference" />
-        <profile value="http://fhir.scwjxx.cn/SiChuan/StructureDefinition/Reference" />
+        <profile value="http://fhir.scwjxx.cn/Sichuan/StructureDefinition/Reference" />
       </type>
     </element>
   </differential>
