@@ -153,7 +153,7 @@
 				<!--0..1 患者ID-->
 				<id value="Patient001-example"/>
 				<meta>
-					<profile value="http://SichuanMedicalCommunity.FHIR.PRESS/StructureDefinition/Patient"/>
+					<profile value="http://fhir.scwjxx.cn/Sichuan//StructureDefinition/Patient"/>
 				</meta>
 				<!--1..* 身份证件号 -->
 				<identifier>
@@ -180,7 +180,7 @@
 				</name>
 				<!-- 0..1 生理性别 -->
 				<gender>
-					<extension url="http://SichuanMedicalCommunity.FHIR.PRESS/StructureDefinition/sexual-distinction-of-human">
+					<extension url="http://fhir.scwjxx.cn/Sichuan//StructureDefinition/sexual-distinction-of-human">
 						<valueCoding>
 							<!-- 0..1 生理性别 CodeSystem url  地址-->
 							<system value="http://fhir.scwjxx.cn/Sichuan/CodeSystem/physiological-gender"/>
@@ -205,7 +205,7 @@
 					<!-- 0..1 地址的完整描述 -->
 					<text value="[string]"/>
 					<!--行政区划代码(由于行政区划为12位村) -->
-					<extension url="http://SichuanMedicalCommunity.FHIR.PRESS/StructureDefinition/AdministrativeDivision">
+					<extension url="http://fhir.scwjxx.cn/Sichuan//StructureDefinition/AdministrativeDivision">
 						<!--行政区划代码 -->
 						<valueString value="5101002029378110"/>
 					</extension>
@@ -239,7 +239,7 @@
 					</coding>
 				</maritalStatus>
 				<!-- 民族 -->
-				<extension url="http://SichuanMedicalCommunity.FHIR.PRESS/StructureDefinition/ChineseEthnicity">
+				<extension url="http://fhir.scwjxx.cn/Sichuan//StructureDefinition/ChineseEthnicity">
 					<valueCoding>
 						<system value="http://fhir.scwjxx.cn/Sichuan/CodeSystem/nationalites-of-PRC"/>
 						<!-- 民族编码 -->
