@@ -152,18 +152,6 @@
         <profile value="http://fhir.scwjxx.cn/Sichuan/StructureDefinition/Reference" />
       </type>
     </element>
-    <element id="ChargeItem.performingOrganization">
-      <path value="ChargeItem.performingOrganization" />
-      <short value="请求收费机构" />
-      <definition value="请求服务的组织。" />
-      <max value="0" />
-    </element>
-    <element id="ChargeItem.requestingOrganization">
-      <path value="ChargeItem.requestingOrganization" />
-      <short value="收费机构" />
-      <definition value="执行服务的组织。" />
-      <max value="0" />
-    </element>
     <element id="ChargeItem.costCenter">
       <path value="ChargeItem.costCenter" />
       <max value="0" />
